@@ -15,6 +15,7 @@ body {
   text-align: center;
   padding: 2em 0; }
   .banner h1 {
+    color: #fff;
     background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
     background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
     color: transparent;
@@ -53,6 +54,8 @@ body {
         width: 50%; }
     .main-content .main-content__music .music__links {
       padding-top: 0.5em; }
+      .main-content .main-content__music .music__links h4 {
+        padding-bottom: 0.2em; }
       .main-content .main-content__music .music__links ul {
         list-style: none; }
         .main-content .main-content__music .music__links ul li a {
@@ -68,15 +71,15 @@ body {
   display: flex; }
   @media (max-width: 800px) {
     .sub-content {
-      flex-direction: column;
-      text-align: center; } }
+      flex-direction: column; } }
   .sub-content .sub-content__tour {
     flex: 1;
     padding-left: 2em; }
     @media (max-width: 800px) {
       .sub-content .sub-content__tour {
         padding-left: 0;
-        font-size: 14px; } }
+        font-size: 12px;
+        margin: 0 auto; } }
     .sub-content .sub-content__tour h2 {
       padding-bottom: 0.8em; }
     .sub-content .sub-content__tour p {
