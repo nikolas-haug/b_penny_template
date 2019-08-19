@@ -32,6 +32,9 @@ body {
 
 .main-content {
   display: flex; }
+  @media (max-width: 800px) {
+    .main-content {
+      flex-direction: column; } }
   .main-content .main-content__portrait {
     flex: 1;
     padding: 0.5em 2em 0.5em 2em; }
@@ -63,9 +66,18 @@ body {
 .sub-content {
   padding-top: 2.5em;
   display: flex; }
+  @media (max-width: 800px) {
+    .sub-content {
+      flex-direction: column;
+      text-align: center; } }
   .sub-content .sub-content__tour {
     flex: 1;
     padding-left: 2em; }
+    @media (max-width: 800px) {
+      .sub-content .sub-content__tour {
+        padding-left: 0; } }
+    .sub-content .sub-content__tour h2 {
+      padding-bottom: 0.8em; }
     .sub-content .sub-content__tour p {
       padding: 0.4em 0; }
   .sub-content .sub-content__contact {
@@ -83,6 +95,10 @@ body {
         color: purple; }
         .sub-content .sub-content__contact ul li a:hover {
           animation: rainbow 1.5s infinite; }
+    @media (max-width: 800px) {
+      .sub-content .sub-content__contact {
+        padding-top: 3em;
+        padding-left: 0; } }
 
 @keyframes rainbow {
   0% {
