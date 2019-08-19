@@ -75,7 +75,8 @@ body {
     padding-left: 2em; }
     @media (max-width: 800px) {
       .sub-content .sub-content__tour {
-        padding-left: 0; } }
+        padding-left: 0;
+        font-size: 14px; } }
     .sub-content .sub-content__tour h2 {
       padding-bottom: 0.8em; }
     .sub-content .sub-content__tour p {
