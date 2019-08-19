@@ -78,8 +78,19 @@ body {
     img {
       width: 100%;
     }
+    .main-content__portrait-caption {
+      font-style: italic;
+    }
     p {
       padding-top: 0.5em;
+    }
+    .main-content__excerpt {
+      font-family: 'Noto Serif', serif;
+      font-size: 14px;
+      &::first-letter {
+        font-size: 21px;
+        color: purple;
+      }
     }
   }
   .main-content__music {
