@@ -100,9 +100,12 @@ body {
     padding-bottom: 0.5em;
     .music__image {
       text-align: center;
+      @media (max-width: 800px) {
+        padding-top: 2em;
+      }
       img {
         width: 50%;
-        box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
       }
     }
     .music__links {
