@@ -10,6 +10,8 @@ console.log(w, h);
 // select the body to append images
 const mainBody = document.querySelector('body');
 
+console.log(mainBody);
+
 window.addEventListener('keyup', (e) => {
     pressed.push(e.key);
     pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
